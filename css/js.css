@@ -1,0 +1,29 @@
+body{
+    margin-top: 5%; font: 80px Arial,Helvetica,sans-serif; font-size: 50px;
+    background-image: url(../img/2255.jpg);
+    /*background-repeat: no-repeat;*/
+}
+table{
+    background-color:    #516593    ; border-radius: 15px; padding: 3px;
+}
+.boton1{
+    font-size: 50px;
+    margin: center;
+    margin-left: 10px;
+    background-color: #833c97 ;
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+    border: 5px solid  #cd93c4 ;
+    border: 8px outset;
+}
+input{
+    margin-top: 5%;
+    width: 400px;
+    height: 80px;
+    border: 5px solid  #cd93c4 ;
+}
+
+button{
+    padding: 10px;
+}
