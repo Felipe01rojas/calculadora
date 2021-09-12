@@ -105,6 +105,7 @@ function Asignar_resta(){
     operacion="resta";
 }
 function Asignar_multi(){
+    
     dato1=document.getElementById('pantalla').value;
     valor_digitado="";
     document.getElementById('pantalla').value='';
@@ -127,10 +128,10 @@ function Asignar_igual()
  document.getElementById('pantalla').value=parseFloat(dato1)-parseFloat(dato2)
  }
  if(operacion=="multiplicacion"){ 
- document.getElementById('pantalla').value=parseFloat(dato1)+parseFloat(dato2)
+ document.getElementById('pantalla').value=parseFloat(dato1)*parseFloat(dato2)
  }
  if(operacion=="divicion"){ 
- document.getElementById('pantalla').value=parseFloat(dato1)+parseFloat(dato2)
+ document.getElementById('pantalla').value=parseFloat(dato1)/parseFloat(dato2)
  }
 }
 
